@@ -1,0 +1,19 @@
+{
+  "name": "lambda-image-processor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "start": "serverless deploy",
+    "update": "serverless deploy function -f",
+    "test": "serverless invoke -f index -p event.json -l"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.4.0",
+    "aws-sdk": "^2.54.0",
+    "gm": "^1.23.0",
+    "request": "^2.81.0"
+  }
+}
