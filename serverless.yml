@@ -16,3 +16,5 @@ provider:
 functions:
   resize:
     handler: resize.f
+  watermark:
+    handler: watermark.f
