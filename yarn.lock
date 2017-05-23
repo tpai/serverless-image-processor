@@ -208,6 +208,12 @@ ieee754@^1.1.4:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
 
+images@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/images/-/images-3.0.0.tgz#e1c3866b7884d671a581fedd511134620da86ea1"
+  dependencies:
+    nan "^2.3.2"
+
 is-typedarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
@@ -285,6 +291,10 @@ mime-types@^2.1.12, mime-types@~2.1.7:
 ms@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
+
+nan@^2.3.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.6.2.tgz#e4ff34e6c95fdfb5aecc08de6596f43605a7db45"
 
 oauth-sign@~0.8.1:
   version "0.8.2"
