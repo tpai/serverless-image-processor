@@ -14,5 +14,5 @@ provider:
       Resource: "*"
 
 functions:
-  index:
-    handler: index.f
+  resize:
+    handler: resize.f
